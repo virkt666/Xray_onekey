@@ -399,7 +399,7 @@ function ssl_install() {
   #  fi
   #  judge "安装 SSL 证书生成脚本依赖"
 
-  curl -L https://get.acme.sh | bash
+  curl -L https://gitee.com/neilpang/acme.sh/raw/master/acme.sh | bash
   judge "安装 SSL 证书生成脚本"
 }
 
